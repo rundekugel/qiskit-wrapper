@@ -20,7 +20,7 @@ def get2qb():
   circuit = QuantumCircuit(2, 2)
   return circuit
 
-class Test:
+class QuTest:
   """
   generate a qiskit test 
   """
