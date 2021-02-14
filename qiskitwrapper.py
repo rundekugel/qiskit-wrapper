@@ -41,11 +41,11 @@ class QuTest:
   
   def addMeasure(self, q="all"):
     """set """
-    if q=="all"
+    if q=="all":
       q=[*range(self.bitcount)]
     else:
       if not isinstance(q, list):
-      q=[q]
+        q=[q]
     self.circuit.measure(q, q)
     self._drawP()
     
